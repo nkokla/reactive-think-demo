@@ -1,0 +1,29 @@
+{
+  "name": "reactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reactive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets env,stage-2 -d lib/ src/",
+    "prepublish": "npm run compile",
+    "prestart": "npm run compile -s -- -q",
+    "start": "node lib/reactive",
+    "start:event": "npm run prestart -s && node lib/event-driven",
+    "start:reactive": "npm run prestart -s && node lib/reactive",
+    "start:event-q": "node lib/event-driven",
+    "start:reactive-q": "node lib/reactive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
