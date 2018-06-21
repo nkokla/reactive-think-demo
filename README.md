@@ -2,11 +2,11 @@
 
 Ceci est une demo de code accompagnant le _Talk_ en français ["Reactive Thinking" [slides.com/nicolaskokla/reactive-think]](slides.com/nicolaskokla/reactive-think)
 
-Vous y trouverez les implémentations d'un même scenario de code (commenté en français) sous deux approches différentes :
+Vous y trouverez les implémentations d'un même scénario de code (commenté en français) sous deux approches différentes :
 * Event Driven Programming
 * Reactive Programming.
 
-## Scenario 
+## Scénario 
 
 À l'appel d'une methode `explose()` sur un Object/Composant `Planet()`, tous les Objects/Composants `Jedi()` réagissent.
 
@@ -38,5 +38,5 @@ npm run start:reactive -s
 
 * `src/DataFlow.js` : Implémentation du dataflow
 * `src/StarWars.js` : Objet emitter/listener (event-driven) ou observable/observer (reactive)
-* `src/event-driven.js` : Implementation du scenario via 'event-driven-programming'
-* `src/reactive.js` : Implementation du scenario via 'reactive-programming'
+* `src/event-driven.js` : Implementation du scénario via 'event-driven-programming'
+* `src/reactive.js` : Implementation du scénario via 'reactive-programming'
