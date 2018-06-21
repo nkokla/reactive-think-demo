@@ -1,6 +1,6 @@
 # reactive-thinking-demo
 
-Ceci est une demo de code accompagnant le _Talk_ en français ["Reactive Thinking" [slides.com/nicolaskokla/reactive-think]](slides.com/nicolaskokla/reactive-think)
+Ceci est une demo de code accompagnant le _Talk_ en français ["Reactive Thinking" [slides.com/nicolaskokla/reactive-thinking]](https://slides.com/nicolaskokla/reactive-thinking)
 
 Vous y trouverez les implémentations d'un même scénario de code (commenté en français) sous deux approches différentes :
 * Event Driven Programming
