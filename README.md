@@ -1,1 +1,1 @@
-# reactive-thinking-demo
+# reactive-think-demo
