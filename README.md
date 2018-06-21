@@ -1,4 +1,4 @@
-# reactive-think-demo
+# reactive-thinking-demo
 
 Ceci est une demo de code accompagnant le _Talk_ en français ["Reactive Thinking" [slides.com/nicolaskokla/reactive-think]](slides.com/nicolaskokla/reactive-think)
 
